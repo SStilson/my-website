@@ -1,28 +1,73 @@
-.App {
-  text-align: center;
+.nav {
+  display: flex;
+  justify-content: flex-end;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.navLink {
+  padding: 5vh 5vw 0 0;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30vh 5vw 5vh 5vw;
 }
 
-.App-title {
-  font-size: 1.5em;
+.icon {
+  height: 20px;
+  width: auto;
 }
 
-.App-intro {
-  font-size: large;
+a {
+  color: #00ef8b;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+a:hover {
+  text-decoration: underline;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+
+.introduction {
+  font-size: 16px;
+  text-align: left;
+  margin: 30vh 5vw 0 5vw;
+}
+
+
+
+.resume {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.resume_title {
+  color: #00ef8b;
+}
+
+.resume_section {
+  padding: 5vh 5vw;
+}
+
+.skills_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skills_item {
+  padding: 1vw;
+}
+
+.experience-dates {
+  font-style: italic;
 }
